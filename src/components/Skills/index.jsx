@@ -17,7 +17,7 @@ import { VscVscode } from "react-icons/vsc";
 
 const Skills = () => {
   const skillsRef = useRef(null);
-  const isInView = useInView(skillsRef, { amount: 0.8, once: true });
+  const isInView = useInView(skillsRef, { amount: 0.5, once: true });
 
   const containerVariant = {
     hidden: {
@@ -69,127 +69,70 @@ const Skills = () => {
         <h3 className="text-xl text-center lg:text-left dark:text-light-white">
           Languages & Frameworks
         </h3>
-        <motion.div
-          className="flex flex-wrap items-center justify-center gap-4"
-          variants={containerVariant}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-        >
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaHtml5 className="text-xl" />
             html
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaCss3 className="text-xl" />
             css
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <IoLogoJavascript className="text-xl" />
             javascript
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaReact className="text-xl" />
             react
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <RiNextjsFill className="text-xl" />
             nextjs
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <SiTypescript className="text-xl" />
             typescript
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaBootstrap className="text-xl" />
             bootstrap
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <RiTailwindCssFill className="text-xl" />
             tailwind
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
         <h3 className="text-xl text-center lg:text-left dark:text-light-white">
           Development Toolkit
         </h3>
-        <motion.div
-          className="flex flex-wrap items-center justify-center gap-4"
-          variants={containerVariant}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-        >
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaGitAlt className="text-xl" />
             git
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaGithub className="text-xl" />
             github
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaNpm className="text-xl" />
             npm
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase  dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase  dark:border-light-white">
             <SiVite className="text-xl" />
             vite
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase  dark:border-light-white"
-            variants={skillVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase  dark:border-light-white">
             <VscVscode className="text-xl" />
             vscode
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
         <h3 className="text-xl text-center lg:text-left dark:text-light-white">
           Skills & Certifications
         </h3>
-        <motion.div
-          className="flex flex-wrap items-center justify-center gap-4"
-          variants={containerVariant}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-        >
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase  dark:border-light-white"
-            variants={certificateVariant}
-          >
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase  dark:border-light-white">
             <FaFreeCodeCamp className="text-xl" />
             <a
               href="https://www.freecodecamp.org/certification/fccb065e16e-b6c9-4a9d-9785-53eff7a32309/javascript-algorithms-and-data-structures"
@@ -197,11 +140,8 @@ const Skills = () => {
             >
               javascript algorithms and data structures
             </a>
-          </motion.div>
-          <motion.div
-            className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white"
-            variants={certificateVariant}
-          >
+          </div>
+          <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaFreeCodeCamp className="text-xl" />
             <a
               href="https://www.freecodecamp.org/certification/fccb065e16e-b6c9-4a9d-9785-53eff7a32309/front-end-development-libraries"
@@ -209,8 +149,8 @@ const Skills = () => {
             >
               front end development libraries
             </a>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );
