@@ -10,7 +10,11 @@ function App() {
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
-    document.documentElement.classList.toggle("dark");
+    if (dark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   }, [dark]);
 
   return (
