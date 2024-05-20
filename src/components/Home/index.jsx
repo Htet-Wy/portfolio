@@ -47,7 +47,7 @@ const Home = () => {
         </motion.h1>
         <AnimationText
           text="I'm a front-end developer"
-          textStyles="text-5xl uppercase my-6 font-roboto md:text-7xl dark:text-light-white"
+          textStyles="text-4xl uppercase my-6 font-roboto md:text-7xl dark:text-light-white"
         />
 
         <motion.button className="bg-midnight-slate text-light-white px-10 py-3 transition-all duration-150 ease-in hover:scale-95">

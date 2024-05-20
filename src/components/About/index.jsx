@@ -83,7 +83,9 @@ const About = () => {
           like what you see, let’s connect and make something awesome together!
         </p>
         <button className="bg-midnight-slate px-5 py-2 text-light-white transition-all duration-150 ease-in hover:scale-95">
-          <a href="">Check My Resume</a>
+          <a href="/assets/Htet-Wai-Yan-Resume.pdf" download>
+            Check My Resume
+          </a>
         </button>
       </motion.div>
     </section>

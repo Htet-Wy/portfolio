@@ -62,14 +62,14 @@ const Skills = () => {
       className="w-full bg-cloud-white dark:bg-deep-black dark:text-gray-300 flex flex-col justify-center items-start px-6 py-12 md:px-12"
       ref={skillsRef}
     >
-      <h2 className="text-5xl font-bold mb-24 self-center uppercase dark:text-light-white">
+      <h2 className="text-4xl font-bold mb-24 self-center uppercase dark:text-light-white md:text-5xl">
         Skills
       </h2>
       <div className="flex flex-col items-start justify-center gap-8">
         <h3 className="text-xl text-center lg:text-left dark:text-light-white">
           Languages & Frameworks
         </h3>
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-wrap items-center gap-4">
           <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaHtml5 className="text-xl" />
             html
@@ -106,7 +106,7 @@ const Skills = () => {
         <h3 className="text-xl text-center lg:text-left dark:text-light-white">
           Development Toolkit
         </h3>
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-wrap items-center gap-4">
           <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase dark:border-light-white">
             <FaGitAlt className="text-xl" />
             git
@@ -131,7 +131,7 @@ const Skills = () => {
         <h3 className="text-xl text-center lg:text-left dark:text-light-white">
           Skills & Certifications
         </h3>
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-wrap items-center gap-4">
           <div className="border border-black flex items-center gap-2 px-4 py-2 rounded-xl uppercase  dark:border-light-white">
             <FaFreeCodeCamp className="text-xl" />
             <a

@@ -45,7 +45,7 @@ const Project = () => {
       className="w-full flex flex-col justify-center items-center px-12 py-12 gap-12 lg:gap-24"
       ref={ref}
     >
-      <h2 className="text-5xl font-bold uppercase dark:text-light-white">
+      <h2 className="text-4xl font-bold uppercase dark:text-light-white md:text-5xl">
         My Projects
       </h2>
       <div className="flex flex-col items-center gap-12 justify-center lg:flex-row">
