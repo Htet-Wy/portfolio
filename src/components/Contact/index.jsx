@@ -36,7 +36,7 @@ const Contact = () => {
       >
         <div className="flex items-center gap-4">
           <FaPhoneAlt />
-          <p>09777791718</p>
+          <p>+66985281807</p>
         </div>
         <div className="flex items-center gap-4">
           <MdOutlineMailOutline className="text-xl" />
